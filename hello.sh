@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Test commit $(date)" >> hello.sh
+echo "This is Jenkins pipeline test" > output.txt
+cat output.txt
