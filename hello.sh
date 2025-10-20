@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "This is Jenkins pipeline test" > output.txt
+echo "This is Jenkins pipeline test - Success!" > output.txt
 cat output.txt
