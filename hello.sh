@@ -1,3 +1,5 @@
-#!/bin/bash
-echo "This is Jenkins pipeline test - Success!" > output.txt
-cat output.txt
+echo '#!/bin/bash
+echo "Hello from Jenkins on AWS EC2!"
+date
+' > hello.sh
+
