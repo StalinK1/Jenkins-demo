@@ -1,5 +1,3 @@
-echo '#!/bin/bash
-echo "Hello from Jenkins on AWS EC2!"
+#!/bin/bash
+echo "Hello from Jenkins via Git push!"
 date
-' > hello.sh
-
