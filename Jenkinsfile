@@ -1,9 +1,11 @@
 pipeline {
     agent any
-    
+
     stages {
         stage('Build') {
             steps {
+                deleteDir()     // clean old workspace
+                checkout scm    // pull latest Git changes
                 sh './hello.sh > output.txt'
             }
         }
